@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header {
+    background-color: rgba(197, 255, 230, 0.5);
+    padding: 20px 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+main a {
+    text-decoration: none;
+    color: black
+}
+
+#home {
+    min-height: 924px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(197, 255, 230);
+    padding-right: 100px;
+    padding-left: 100px;
+    background: url("./img/venus_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home h1 {
+    font-size: 75px;
+}
+
+#home h1 span {
+    font-size: 95px;
+    color: #006004;
+}
+
+#home p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    font-weight: 600;
+}
+
+#home h1 a {
+    border-radius: 20px;
+    padding: 20px 50px;
+    background-color: #006004;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E4FFF4;
+    min-height: 947px;
+}
+
+.about-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-1 h1 {
+    font-size: 75px;
+    color: #006004;
+}
+
+.about-1 p {
+    font-size: 24px;
+    margin-top: 67px;
+    font-weight: 600;
+}
+
+#support {
+    background-color: white;
+    min-height: 352px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#support h1 {
+    font-size: 50px;
+    color: #006004;
+}
+
+#support .supporters ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#support .supporters ul li {
+    margin-right: 80px;
+}
+
+#support .supporters ul #last {
+    margin-right: 0px !important;
+}
+
+#economy {
+    min-height: 924px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E4FFF4;
+    padding-right: 100px;
+    padding-left: 100px;
+    background: url("./img/venus_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#economy h1 {
+    font-size: 75px;
+    color: #006004;
+}
+
+#economy p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 67px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 216px;
+    background-color: #686C50;
+    color: white;
+    font-size: 24px;
+}
+
+footer #networking ul {
+    list-style-type: none;
+    display: flex;
+}
+
+footer #networking ul li {
+    margin: 25px;
+}
+
+footer #networking ul li img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+@media only screen and (max-width: 1650px) {
+    #about {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #about iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
